@@ -27,9 +27,9 @@ ln -sf "$PWD/.gitconfig" "$HOME/.gitconfig"
 
 vim +PlugInstall +qall
 
-echo "Installing packages..."
-sudo apt update
-sudo apt install -y php-fpm
+# echo "Installing packages..."
+# sudo apt update
+# sudo apt install -y php-fpm
 
 echo "Setting up VSCode settings..."
 mkdir -p ~/.config/Code/User
