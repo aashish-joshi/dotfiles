@@ -1,0 +1,13 @@
+[user]
+    name = Aashish Joshi
+    email = 14803874+aashish-joshi@users.noreply.github.com
+
+[init]
+    defaultBranch = main
+
+[alias]
+    st = status
+    co = checkout
+    br = branch
+    cm = commit -m
+	lg = log --graph --oneline --decorate --all
