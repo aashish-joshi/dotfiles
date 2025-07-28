@@ -29,7 +29,7 @@ vim +PlugInstall +qall
 
 echo "Installing packages..."
 sudo apt update
-sudo apt install -y php-fpm
+sudo apt install -y php-fpm wine64 genisoimage icnsutils graphicsmagic dpkg fakeroot
 
 echo "Setting up VSCode settings..."
 mkdir -p ~/.config/Code/User
